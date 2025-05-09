@@ -33,7 +33,7 @@ const PostDetail = () => {
       {post.image && (
         <Box mb={3}>
           <img
-            src={`http://localhost:5000/uploads/${post.image}`}
+            src={`https://blogback-0688e51e75ff.herokuapp.com/uploads/${post.image}`}
             alt={post.title}
             style={{ maxWidth: '100%', maxHeight: '400px' }}
           />

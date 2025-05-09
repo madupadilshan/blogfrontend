@@ -74,7 +74,7 @@ const PostForm = ({ initialValues, onSubmit, isEdit }) => {
             <Box mt={2}>
               <Typography variant="body2">Current Image:</Typography>
               <img
-                src={`http://localhost:5000/uploads/${initialValues.image}`}
+                src={`https://blogback-0688e51e75ff.herokuapp.com/uploads/${initialValues.image}`}
                 alt="Current"
                 style={{ maxWidth: '100%', maxHeight: '200px' }}
               />

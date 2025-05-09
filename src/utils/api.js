@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://blogback-0688e51e75ff.herokuapp.com/api',
 });
 
 // Add a request interceptor
